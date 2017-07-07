@@ -1,0 +1,98 @@
+body{margin: 0; 
+	 padding: 0;
+	 background: #;
+     font-family: 'Dancing Script', cursive;}
+
+/*styles for nav bar*/
+.nav> ul{/*background: #4312cc*/;
+         width: 100%;
+         list-style: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;}
+
+.nav>ul>li{float: left;} 
+
+.nav>ul>li>a{display: block;
+             text-decoration: none;
+             color: #fff;
+             padding: 16px 12px;} /*padding first one ; left to right, then top to bottom*/
+
+.nav>ul>li>a:hover/*.active*/{/*background: #000;*/
+                   /*color: #ff0000; */
+                   border-bottom: 2px solid #ff0000;} 
+
+.active{/*background: #c1c1c1;*/}
+
+.content{text-align: center;
+         margin: 10px solid;
+         font-family: 'Sigmar One', cursive;}
+
+.smaller{/*background: #10ff00;*/
+         margin-right: 10px auto;
+         border-radius: 4px;
+         width: 45%;
+         float:left;
+         padding-left: 10px auto;
+         padding-right: 10px;
+         margin-left: 10px;
+         box-sizing: border box;
+         height: 70%;
+         font-family: 'Fugaz One', cursive;}
+
+ .lower{ /*background: #2c2249;*/
+         width: 96%;
+         overflow: hidden;
+         height: 90%; 
+         margin: 10px auto;
+         padding-top: 20px;
+         padding-bottom:20px;
+         padding-left: 50px;	
+         padding-right: 30px;
+         font-family: 'Monoton', cursive;}
+
+#background{/*background-repeat: no-repeat*/;
+            height: 100%;
+            width: 100%;}
+
+   {box-sizing: border-box;}
+
+.columns{float: left;
+         width: 30%;
+       /*  padding: 5px;*/
+        height: 500px;}
+
+.price{list-style-type: none;
+       border:2px solid #fff;
+       /*margin: 0;*/
+       padding: 0;}
+
+.header{background-color: #b72c2c;
+        color: #fff;
+        font-size: 25px;
+        text-align: center;}
+
+.list{background: #d6592d;
+      font-size: 20px;
+      padding: 7px;  
+      text-align: center;
+      margin: 2px solid #fff;}
+
+
+
+.rows{ float: left;
+       width: 30%;
+       padding-top: 10px;
+       padding-bottom: 5px;
+       padding-left: 5px;
+       padding-right: 5px;}
+
+.cars{ width: 300px;
+       height: 300px;
+       padding: 3px;
+       box-sizing: border-box;
+       overflow: hidden;}
+
+   img{width: 200%;
+       height: 100%;}
+           
